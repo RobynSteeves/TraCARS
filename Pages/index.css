@@ -1,0 +1,30 @@
+*{
+  text-align: center;
+}
+h1{
+  padding: 2em;
+}
+.container-fluid{ 
+  background-color: #4c1f6f;
+  border: 20px solid white;
+}
+.col-md-12 {
+  border-radius: 55px;
+  display: grid;
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+#title {
+  background-color: #c07cd3;
+  border: 6px solid white;
+  }
+#request {
+  background-color: #de66b1;
+  border: 6px solid white;  
+  padding: 2em;
+}
+#buttonEnd {
+  background-color: #ef5379;
+  padding: 1.6em;
+  cursor: pointer;
+}
