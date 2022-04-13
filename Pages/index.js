@@ -1,18 +1,24 @@
-let startTime = document.getElementById("product1");
-  alert(product1.value);
-let endTime = document.getElementById("product2");
-  alert(endTime.value);
-let date = document.getElementById("product3");
-  alert(date.value);
+function submit(){
+  console.log("button has been clicked!");
   
-let inputEls = document.querySelectorAll(".product-row > input");
-  console.log(inputEls.length);
+  let firstNameInput = document.getElementById("firstName");
+  console.log(firstNameInput.value);
+
+  let selectCarInput = document.getElementById("selectCar");
+  console.log(selectCarInput.value);  
   
-alert(inputEls.length); // number of elements
+  let dateInput = document.getElementById("date");
+  console.log(dateInput.value); 
+    
+  let startTimeInput = document.getElementById("startTime");
+  console.log(startTimeInput.value); 
+    
+  let endTimeInput = document.getElementById("endTime");
+  console.log(endTimeInput.value);
 
-// iterate/loop through the input elements
-
-for (let i = 0; i < inputEls.length;  i++) {
-console.log(inputEls[i].value)
-}       //end of for loop
+  let reasonCarInput = document.getElementById("reasonCar");
+  console.log(reasonCarInput.value);  
+    
+  let commentsInput = document.getElementById("comments");
+  console.log(commentsInput.value);  
 }
